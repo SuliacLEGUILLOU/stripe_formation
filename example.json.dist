@@ -1,5 +1,5 @@
 {
-    "keys": {
+    "accounts": {
         "fr": {
             "private": "sk_test_",
             "public": "pk_test_",
