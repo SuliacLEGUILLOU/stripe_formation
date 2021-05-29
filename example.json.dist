@@ -1,0 +1,40 @@
+{
+    "keys": {
+        "fr": {
+            "private": "sk_test_",
+            "public": "pk_test_",
+            "domaine": "perdu.com",
+            "tax_rate": {
+                "default": {
+                    "display_name": "default",
+                    "inclusive": true,
+                    "percentage": 20
+                }
+            }
+        }
+    },
+    "formation": {
+        "public_key_path": "/stripe/pk",
+        "products": {
+            "base": {
+                "name": "Basic product",
+                "description": "Some very basic stuff",
+                "metadata": {"some": "stuff"}
+            },
+            "complex": {
+                "name": "complex product"
+            }
+        },
+        "webhooks": {
+            "base_dir": "some/path",
+            "path": "stripe/webhook",
+            "charge": {
+                "updated": "filename",
+                "captured": "filename"
+            },
+            "customer": {
+                "created": "filename"
+            }
+        }
+    }
+}
