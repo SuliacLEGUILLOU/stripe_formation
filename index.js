@@ -7,7 +7,7 @@ class StripeEngine extends StripeFormation {
 }
 
 async function main(){
-    const engine = new StripeEngine({path: '/home/su/Projects/stripe_formation/simple_input.json'})
+    const engine = new StripeEngine({path: '/home/su/Projects/stripe_formation/example.json'})
 
     await engine.init()
 }
