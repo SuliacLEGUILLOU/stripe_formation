@@ -19,7 +19,11 @@
             "base": {
                 "name": "Basic product",
                 "description": "Some very basic stuff",
-                "metadata": {"some": "stuff"}
+                "metadata": {"some": "stuff"},
+                "price": {
+                    "currency": "eur",
+                    "unit_amount": 12345
+                }
             },
             "complex": {
                 "name": "complex product"
