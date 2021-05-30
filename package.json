@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node example/class.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

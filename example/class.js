@@ -1,4 +1,4 @@
-const StripeFormation = require('./lib/StripeFormation')
+const StripeFormation = require('../lib/StripeFormation')
 
 class StripeEngine extends StripeFormation {
     constructor(options = {}){
@@ -7,7 +7,7 @@ class StripeEngine extends StripeFormation {
 }
 
 async function main(){
-    const engine = new StripeEngine({path: '/home/su/Projects/stripe_formation/example.json'})
+    const engine = new StripeEngine({path: process.env.STRIPE_TEMPLATE})
 
     await engine.init()
 }
