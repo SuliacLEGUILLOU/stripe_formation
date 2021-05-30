@@ -1,8 +1,10 @@
 {
   "name": "stripe_formation",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Stripe resource manager",
+  "main": "lib.js",
+  "keywords": ["stripe"],
+  "homepage": "https://github.com/SuliacLEGUILLOU/stripe_formation",
   "directories": {
     "lib": "lib"
   },
@@ -10,7 +12,7 @@
     "start": "node example/class.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Suliac Le Guillou <suliac.leguillou@pm.me>",
   "license": "ISC",
   "dependencies": {
     "stripe": "^8.150.0"

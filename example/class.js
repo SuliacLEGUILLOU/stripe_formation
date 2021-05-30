@@ -12,6 +12,7 @@ async function main(){
 
     var stripeFR = engine.getEngine('fr')
 
+    console.log('Simple example: ', await stripeFR.balance.retrieve())
     console.log('Product basic: ', engine.getProduct('fr', 'base'))
     console.log('Tax rate: ', engine.getTaxRate('fr', 'default'))
 }
