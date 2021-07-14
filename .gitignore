@@ -1,3 +1,4 @@
 example.json
 node_modules
 .vscode
+.nyc_output
